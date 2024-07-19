@@ -80,6 +80,10 @@ button .fa-solid {
     color: #999;
     border-bottom: 1px solid rgb(2, 43, 43);
 }
+.result-box ul li a{
+    text-decoration: none;
+    color: #999;
+}
 .result-box ul li:hover{
     background-color: rgb(2, 43, 43) ;
 }
@@ -121,7 +125,7 @@ button .fa-solid {
     min-height: 40px;
     color: antiquewhite;
     font-family: 'Baloo Chettan 2', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
 
 }
 
@@ -144,6 +148,29 @@ h4 {
     color: antiquewhite;
     opacity: .6;
 }
+.highlight {
+    color: red;
+    font-weight: bolder;
+}
+@keyframes slowBlink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .blinking-slow {
+    animation: slowBlink 1s infinite;
+    background-color: rgb(2, 43, 43);
+    color: #000;
+    
+  }
+  
 /* @font-face {
     font-family: 'CustomMalayalamFont';
     src: url('custom-font.ttf') format('truetype');
