@@ -394,3 +394,7 @@ function selectInput(bookId) {
     inputBox.value = titleDiv.textContent;
     resultBox.innerHTML = '';
 }
+
+
+//databade
+
